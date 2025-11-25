@@ -4,11 +4,12 @@ import tailwindcss from '@tailwindcss/vite';
 import react from '@astrojs/react';
 import vercel from '@astrojs/vercel';
 import sitemap from '@astrojs/sitemap';
+import edgeoneAdapter from '@edgeone/astro';
 
 export default defineConfig({
   // Replace with your website URL (required for sitemap generation)
   site: 'https://example.com',
-
+  adapter: edgeoneAdapter(),
   // URL configuration
   trailingSlash: 'never', // Removes trailing slashes from URLs
 
@@ -30,8 +31,7 @@ export default defineConfig({
   ],
 
   // Deployment configuration
-  output: 'server', // Server-side rendering - required for OpenAI API usage
-  adapter: vercel(), // Deploy to Vercel - optional
+  output: 'server', 
   devToolbar: {
     enabled: false,
   },
