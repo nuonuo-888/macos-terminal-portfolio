@@ -8,7 +8,7 @@ import edgeoneAdapter from '@edgeone/astro';
 
 export default defineConfig({
   // Replace with your website URL (required for sitemap generation)
-  site: 'https://example.com',
+  site: 'https://macos-terminal-portfolio.edgeone.app/',
   adapter: edgeoneAdapter(),
   // URL configuration
   trailingSlash: 'never', // Removes trailing slashes from URLs
