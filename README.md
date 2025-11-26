@@ -36,7 +36,6 @@ One-click deploy this starter to Tencent EdgeOne Pages (installs, builds, and se
 ## Integrations
 
 - @astrojs/react
-- @astrojs/vercel
 - @astrolib/seo
 - @astrojs/sitemap
 
@@ -105,10 +104,6 @@ Update SEO metadata in:
 ### Sitemap
 
 The sitemap is automatically generated using @astrojs/sitemap. Configure in astro.config.mjs.
-
-## Deployment
-
-This theme is configured for deployment on Vercel. Update astro.config.mjs if you prefer a different platform.
 
 ## License
 
